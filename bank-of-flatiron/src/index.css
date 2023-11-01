@@ -1,44 +1,49 @@
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+
 body {
-  font-family: "Arial", sans-serif;
-  background-color: #f0f0f0;
+  font-family: "Georgia", 'Times New Roman', serif;
+  background-color: #f5f5f5; 
 }
 
 .container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #fff;
+  background-color: #ffffff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  border-radius: 8px;
+  border-radius: 5px;
+  
 }
 
 h1 {
   text-align: center;
   color: #333;
-  font-size: 36px;
+  font-size: 32px;
   font-weight: bold;
   margin-top: 20px;
   margin-bottom: 20px;
-  text-decoration: underline;
 }
 
+
+
 form {
-  background-color: #fff;
-  border: 2px solid #ccc;
-  border-radius: 8px;
+  background-color: #ffffff;
+  border: 2px solid #c0c0c0;
+  border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
-  margin: 0 auto;
-  max-width: 600px;
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin: 0 auto; 
+  max-width: 600px; 
+  margin-top: 20px; 
+  margin-bottom: 90px;
 }
+
 
 label {
   display: block;
@@ -52,11 +57,10 @@ input[type="number"] {
   width: 100%;
   padding: 15px;
   margin-bottom: 20px;
-  border: 2px solid #ccc;
-  border-radius: 8px;
+  border: 2px solid #c0c0c0;
+  border-radius: 5px;
   font-size: 16px;
 }
-
 select[name="description"],
 select[name="category"] {
   width: 100%;
@@ -64,22 +68,20 @@ select[name="category"] {
   margin-bottom: 20px;
   border: 1px solid #ad8181;
   border-radius: 3px;
-  background-color: #fff;
-  font-size: 16px;
-  color: #333;
+  background-color: #fff; 
+  font-size: 16px; 
+  color: #333; 
 }
-
 button[type="submit"] {
   width: 100%;
   padding: 15px;
   background: #000000;
   color: #fff;
   border: none;
-  border-radius: 8px;
+  border-radius: 5px;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 18px; 
 }
-
 table {
   width: 100%;
   border-collapse: collapse;
@@ -92,35 +94,31 @@ th, td {
 }
 
 th {
-  background-color: #55606b;
+  background-color: #454a4f;
   color: #fff;
 }
 
 tr:nth-child(even) {
-  background-color: #f0f0f0;
+  background-color: #e0e0e0;
 }
 
-.transaction-card {
-  border: 2px solid #ccc;
-  border-radius: 8px;
+input[type="text"] {
+  width: 100%;
   padding: 15px;
-  margin: 15px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  background-color: #0073e6;
+  margin-top: 20px;
+  border: 2px solid #c0c0c0;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
-.transaction-cards {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-h2 {
+h2{
   text-align: center;
-  font-size: 28px;
+  font-size: xx-large;
   padding: 10px;
+  text-decoration: solid;
   text-decoration: underline;
 }
-
-li {
+li{
   text-align: center;
+  
 }
